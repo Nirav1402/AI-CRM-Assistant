@@ -1,0 +1,27 @@
+.dashboard{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    background:#F5F7FA;
+}
+
+.dashboard-main{
+
+    flex:1;
+
+    display:grid;
+
+    grid-template-columns:1.3fr 1fr;
+
+    gap:24px;
+
+    padding:24px;
+
+}
+
+.left-panel,
+.right-panel{
+
+    height:100%;
+
+}

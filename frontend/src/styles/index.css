@@ -1,0 +1,6 @@
+/* Basic styles for the new frontend structure */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.app-header { background:#0b5; padding:16px; color:#012; }
+.dashboard-page main { padding: 16px; display:flex; gap:16px; }
+.chat-panel { flex:1; border:1px solid #ddd; padding:12px; }
+.interaction-form { display:flex; gap:8px; }
